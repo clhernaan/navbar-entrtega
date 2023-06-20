@@ -9,7 +9,9 @@
 }
 
 body {
-  background-color: #545252;
+  background-image: url(/img/imagenfondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -71,18 +73,23 @@ body {
 }
 
 .header .btn button:hover {
-  background-color: #e2f1f8;
+  background-color: #ffffff;
   color: #5f6fcd;
   transform: scale(1.1);
 }
 .caja-flex {
   display: flex;
   justify-content: center;
-  font-size: x-small;
+  transition: all 0.3s ease 0s;
+  transform: scale(1.1);
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   gap: 40px;
-  background-color: #f5d60a;
-  width: 100px;
-  height: 40px;
-  border-radius: 1rem;
-  padding-inline: 1rem;
+  background-color: #f9d507;
+  width: 300px;
+  height: 25px;
+  border-radius: 12rem;
+  padding-inline: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1;
 }
